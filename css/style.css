@@ -1,0 +1,93 @@
+body {
+  background-color: rgb(159, 157, 157);
+  background: url("https://www.vsemirnyjbank.org/content/dam/photos/780x439/2017/jun-1/ru-city-780.jpg")
+    no-repeat;
+  background-size: cover;
+}
+.house {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 50%;
+  height: 1000px;
+  max-height: 90%;
+  border: 5px solid black;
+  background-color: dimgrey;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI3QE18lhZ8b4Y8lB2p1Ql52ichGrmtXgGIX7DWIeoaLybj0NWU5CghEUoe35cflSbKWQ&usqp=CAU");
+  background-size: 150px 300px;
+  display: flex;
+  flex-direction: row;
+}
+
+.house_left {
+  background-color: rgb(45, 48, 52);
+  width: 40%;
+  height: 100%;
+}
+.house_left > div {
+  width: 90%;
+  height: 18%;
+  background-color: green;
+  margin: 5%;
+}
+.house_left > div > img {
+  width: 100%;
+  height: 100%;
+}
+.house_right {
+  background-color: rgb(45, 48, 52);
+  width: 40%;
+  height: 100%;
+}
+.house_right > div {
+  width: 90%;
+  height: 18%;
+  background-color: blue;
+  margin: 5%;
+}
+.house_right > div > img {
+  width: 100%;
+  height: 100%;
+}
+.elevator_border {
+  background-color: rgb(59, 59, 59);
+  width: 20%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 2.5s ease;
+}
+.elevator_body {
+  background-color: orange;
+  width: 90%;
+  height: 90%;
+}
+.elevator_body > img {
+  width: 100%;
+  height: 100%;
+}
+.button_container {
+  margin-top: 15%;
+  margin-left: 5%;
+  width: 8%;
+  height: 70%;
+  background-color: rgb(178, 176, 169);
+  border-radius: 40px;
+  border: 7px double rgb(56, 57, 59);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+button {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(133, 132, 130);
+  margin: 5%;
+  border-radius: 100%;
+}
+button:hover {
+  background-color: rgb(97, 97, 95);
+}
